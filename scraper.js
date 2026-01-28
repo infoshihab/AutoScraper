@@ -158,6 +158,9 @@ function cleanPrice(rawPrice) {
   } catch (err) {
     console.error("❌ Error:", err);
   }
+
+
+  
   // keep browser open for manual inspection
   // finally { await driver.quit(); }
 })();
